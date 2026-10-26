@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Choose a time to talk" />
+    <title>Choose a time to talk</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="site-config.js"></script>
+    <script defer src="site.js"></script>
+  </head>
+  <body class="booking-theme">
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="wrap">
+      <header class="header">
+        <a href="index.html" data-next-step class="brand"
+          ><span class="brand-mark" aria-hidden="true">↗</span
+          ><span data-brand>Your studio</span></a
+        >
+        <nav class="nav" aria-label="Main navigation">
+          <a href="prepare.html" data-next-step>What to expect</a
+          ><a href="book.html" data-next-step>Book a call</a>
+        </nav>
+      </header>
+      <main id="main">
+        <div class="steps" aria-label="Funnel progress">
+          <span>01 &nbsp; Discover</span><i aria-hidden="true"></i><span>02 &nbsp; Prepare</span
+          ><i aria-hidden="true"></i><span aria-current="step">03 &nbsp; Book</span>
+        </div>
+        <section class="page-title">
+          <span class="eyebrow">Your next step</span>
+          <h1>Find a time.<br />Let’s talk.</h1>
+          <p class="lead">
+            Choose from the calendar’s available appointments and confirm the details before
+            booking.
+          </p>
+        </section>
+        <section class="conversion">
+          <aside>
+            <h2>Make a little<br />room for clarity.</h2>
+            <p class="lead">
+              A conversation about <span data-service>your specialist service</span>, shaped around
+              your goals.
+            </p>
+            <ol class="checklist">
+              <li>
+                <div>
+                  <strong>Choose your timezone</strong>
+                  <p>Check the timezone displayed in the calendar before selecting a time.</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Review the details</strong>
+                  <p>
+                    The calendar shows duration, availability and any payment or cancellation
+                    requirements.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Complete your booking</strong>
+                  <p>
+                    Your appointment is confirmed only when the CRM calendar says it is complete.
+                  </p>
+                </div>
+              </li>
+            </ol>
+            <p class="note">
+              <a href="prepare.html" data-next-step>See how to prepare for your conversation.</a>
+            </p>
+          </aside>
+          <div class="form-card">
+            <h2 class="small-heading">Choose an appointment</h2>
+            <div data-crm-mount="booking"></div>
+            <div class="setup" data-setup role="status">
+              <h3>This booking calendar is not connected yet</h3>
+              <p>
+                The site owner needs to connect a published CRM calendar before appointments can be
+                booked. No booking has been made.
+              </p>
+            </div>
+            <a
+              class="text-link"
+              data-open-booking
+              hidden
+              href="book.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Open the calendar in a new tab</a
+            >
+            <p class="note">
+              Read <a href="privacy.html">how your information is used</a> before booking.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <span>© <span data-year>2026</span> <span data-brand>Your studio</span></span
+        ><span>Made for a thoughtful next step.</span
+        ><a href="privacy.html">Privacy &amp; your information</a>
+      </footer>
+    </div>
+  </body>
+</html>
